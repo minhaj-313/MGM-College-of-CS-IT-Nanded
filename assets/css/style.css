@@ -343,6 +343,39 @@ General Section
 }
 
 /*--------------------------------------
+ TENDER BUTTON 
+---------------------------------------- */
+.blink {
+  width: 100px;
+  height: 25px;
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+
+span {
+  font-size: 25px;
+  font-family: cursive;
+  color: #674cae;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/*--------------------------------------
   FEATURES
 ---------------------------------------- */
 .features-grid {
